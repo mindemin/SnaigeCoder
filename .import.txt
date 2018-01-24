@@ -1,0 +1,410 @@
+﻿
+T: 0; 4; Aukštis; Height
+P: RF39; 200cm; 200cm
+P: RF36; 194.5cm; 194.5cm
+P: RF35; 194.5cm; 194.5cm
+P: RF34; 185cm; 185cm
+P: RF32; 176cm; 176cm
+P: RF31; 176cm; 176cm
+P: RF30; 176cm; 176cm
+P: RF27; 150cm; 150cm
+P: C 29; 145cm; 145cm
+P: C 31; 163cm; 163cm
+P: F 22; 145cm; 145cm
+P: F 27; 163cm; 163cm
+P: CD40; 202.5cm; 202.5cm
+T: 0; 5; Aukštis; Height
+P: C 140; 85cm; 85cm
+P: CD140; 85cm; 85cm
+P: CD290; 145cm; 145cm
+P: CD350; 173cm; 173cm
+P: CD480; 202; 202.5cm
+P: F 100; 85cm; 85cm
+P: F 245; 145cm; 145cm
+P: FR240; 144cm; 144cm
+P: FR275; 169cm; 169cm
+P: R 130; 85cm; 85cm
+P: RF270; 145cm; 145cm
+P: RF310; 173cm; 173cm
+P: RF315; 173cm; 173cm
+P: RF360; 191cm; 191cm
+P: RF390; 200cm; 200cm
+T: 4; 1; Sistemos Tipas; System Type
+P: S; Statinė; Static
+P: N; No frost; No frost
+P: V; Statinė su vožtuvu; Static with a vent
+P: F; No frost; No frost
+P: D; Dinaminė; Dynamic
+T: 5; 1; Valdymo Sistema; Control System
+P: M; Mechaninė; Mechanic
+P: G; Elektroninė už durų; Electronic behind the door
+P: E; Elektroninė ant durų; Electronic on the door
+P: C; Elektroninė reklaminiame skyde; Electronic in the dashboard
+T: 7; 1; Kilmato klasė; Climate class
+P: S; N klimato kl.; N climate class
+P: S; 3 klimato klasė; 3 climate class
+P: P; N-ST klimato kl.; N-ST climate class
+P: P; N/ST klimato kl.; N/ST climate class
+P: T; N-T klimato kl.; N-T climate class
+P: Z; Ekonominė; Economic
+P: W; Su VIP; With VIP
+P: V; Su viena VIP; With one VIP
+P: V; Su 6 VIP; With 6 VIP
+T: 8; 1; Konstrukctijos Variantas; Construction Variant
+P: 1; -; -
+P: 1; Šaldiklio durys iki panelės; Freezer door up till panel 
+P: 3; Durys iki reklaminio skydo; Doors up till ad dashboard
+P: 5; Prailgintos durys; Extended Doors
+P: 4; Sujungimui, papildoma trumpa apatinė panelė; For joining, additional short bottom panel
+P: F; Su šaldiklio durimis; With freezer doors
+P: K; Sujungimui, sujungimo detalės prie šaldiklio; For joining, parts with the freezer
+P: Q; Sujungimui, sujungimo detalės atskira pakuote; For joining, parts in another package
+P: P; Sujungimui, sujungimo detalės atskira pakuote; For joining, parts in another package
+P: M; Be stalčių, su profiliais ant garintuvų; No drawers, with profiles on the vaporizers
+T: 9; 2; Išorės Spalva; Exterior Color
+P: 00; Balta, balti plastikai; White, white plastic
+P: 02; Juodas durų rėmas ir sandarintojas, juodas reklaminio skydo rėmas, korpusas baltas; Black door frame and sealer, black dashboard frame
+P: MA; Pilka, sidabriniai plastikai; Gray, Silver plastic
+P: MP; Pilka, pilki lieti plastikai; Gray, Gray cast plastic
+P: JJ; RAL 9011 juoda, juodi plastikai; RAL 9011 black, black plastic
+P: JA; RAL 9011 juoda, sidabriniai plastikai; RAL 9011 black, silver plastic
+P: RA; RAL 3000 raudona, sidabriniai plastikai; RAL 3000 red, silver plastic
+P: DA; RAL 1015 beige, sidabriniai plastikai; RAL 1015 beige, silver plastic
+P: BA; RAL 5002 mėlyna, sidabriniai plastikai; RAL 5002 blue, silver plastic
+P: AG; Pantone 122 geltona, sidabriniai plastikai; Pantone 122 yellow, silver plastic
+P: 21; Pantone 369 žalia, sidabriniai plastikai; Pantone 369 žalia
+P: CB; inox durys, šonai tamsintas aliuminis, tamsinto aliuminio plastikai; inox door, dark aluminum sides, dark aluminum plastic
+P: BI; inox durys ir šonai tamsinto aliuminio plastikai; inox door and dark aluminum plastic
+P: PG; RAL 1016, plastikai pilki lieti; RAL 1016, gray cast plastic
+P: PZ; RAL 6000, plastikai pilki lieti; RAL 6000, gray cast plastic
+P: PB; RAL 5015, plastikai pilki lieti; RAL 5015, gray cast plastic
+P: AV; Raudona Ferrari Rot RAL 3001, RT0739, sidabriniai plastikai; Red Ferrari Rot RAL 3001, RT0739, silver plastic
+P: AH; Pilkai dažytas korpusas ir stiklo rėmeliai, sidabriniai plastikai; Gray body and glass frames
+P: AH; Pilki šonai, pilki rėmeliai, sidabriniai plastikai; Gray sides, gray frames, silver plastic
+T: 11; 1; Modifikacija; Modification
+P: 0; Spinta su metaliniu dangčiu; Box with a metal lid
+P: 0; 2 LED šonuose; 2 LED on the sides
+P: 1; 1 LED šone; 1 LED on the side
+P: 2; LED viršuje; LED in the top
+P: 2; LED; LED
+P: 3; LED dešiniame šone ir ventiliatoriaus išjungimas; LED on the right side and ventilator power off
+P: 4; 2 LED  ir ventiliatoriaus išjungimas; 2 LED and ventilator power off
+P: 5; 2 LED šonuose, savaiminis durų uždarymo mechanizmas; 2 LED in the sides, auto-close door mechanism
+P: A; Kairinis atidarymas; Left door opening
+P: D; LED, ventiliatorius; LED, ventilator
+P: D; Ventiliatorius; Ventilator
+T: 12; 1; Energijos Klasė; Energy Class
+P: 1; A+; A+
+P: 2; A++; A++
+P: 3; A+++; A+++
+P: 6; A+ su 0 zona; A+ with 0 zone 
+P: 7; A++ su 0 zona; A++ with 0 zone
+P: X; Nėra; None
+T: 13; 1; Rankenos; Handles
+P: 0; Integruota; Integrated
+P: 3; Horizontali; Horizontal
+P: 5; Dvi trumpos Arma; Two short Arma
+P: 7; Kinietiškos ilga+trumpa; Chinese long+short
+P: J; Juodas stiklas, vertikaliai integruota rankena; Black glass, vertically integrated handle
+P: R; Raudonas stiklas, vertikaliai integruota rankena; Red glass, vertically integrated handle
+P: G; Baltas stiklas, vertikaliai integruota rankena; White glass, vertically integrated handle
+P: T; Korėjiškos rankenos; Korean handles
+P: 1; Vertikali ABS; Vertical ABS
+P: 5; 25cm metalinė Arma; 25cm metal Arma
+P: 6; 22cm metalinė Arma; 22cm metal Arma
+P: Q; Vertikali ilga kiniška; Vertical long chinese
+P: N; Išorinė vertikali rankena ant juodo stiklo; External vertical handle on black glass
+P: 0; PVC rėmas, spynelė, integruota rankena; PVC frame, lock, integrated handle
+P: 1; Aliuminio rėmas, spynelė, prisukama CD rankena; Aluminum frame, lock, screw on CD handle
+P: 2; Aliuminio rėmas, prisukama CD rankena; Aluminum frame, screw on CD handle
+P: X; PVC rėmas, integruota rankena; PVC frame, integrated handle
+P: 4; PVC rėmas, rankena V253035; PVC frame, handle V253035
+P: K; PVC rėmas, rankena V253036; PVC frame, handle V253036
+P: 5; PVC rėmas, spynelė, rankena V253035; PVC frame, lock, handle V253035
+P: 6; PVC rėmas, spynelė, rankena  V253036; PVC frame, lock, handle V253036
+P: 7; Aliuminio rėmas, spynelė, V253035 rankena; Aluminum frame, lock, V253035 handle
+T: 14; 1; Lentynos; Shelves
+P: 5; 4 vnt. su baltais profiliais, lentyna virš vonelių be profilio; 4 units with white profiles, shelve above the basins without a profile
+P: 7; 4 vnt. su blizgiais prof., lentyna virš vonelių su profiliu; 4 units with shiny profiles, shelve above the basins with a profile
+P: 8; 3 vnt. su blizgiais profiliais,  lentyna virš vonelių su profiliu; 3 units with white profiles, shelve above the basins with a profile
+P: C; 4 vnt. su baltais profiliais,  lentyna virš vonelių su profiliu; 4 units with white profiles, shelve above the basins with a profile
+P: 5; 4 vnt. su baltais profiliais, lentyna virš vonelių be profilio. 2 vonelės; 4 units with white profiles, shelve above the basins without a profile. 2 basins
+P: 7; 4 vnt. su blizgiais prof., lentyna virš vonelių su profiliu. 2 vonelės; 4 units with shiny profiles, shelve above the basins with a profile. 2 basins
+P: 8; 3 vnt. su blizgiais profiliais,  lentyna virš vonelių su profiliu. 2 vonelės; 3 units with shiny profiles, shelve above the basins with a profile. 2 basins
+P: C; 4 vnt. su baltais profiliais,  lentyna virš vonelių su profiliu. 2 vonelės; 4 units with white profiles, shelve above the basins with a profile. 2 basins
+P: D; Vaisių stalčius,  3 vnt. su blizgiais prof., lentyna virš stalčiaus su blizgiu profiliu; Fruit drawer, 3 units with shiny profiles, shelve above the basins with a shiny profile
+P: 5; 3 vnt. su baltais profiliais, lentyna virš vonelių be profilio; 3 units with white profiles, shelve above the basins without a profile
+P: 7; 3 vnt. su blizgiais prof., lentyna virš vonelių su profiliu; 3 units with shiny profiles, shelve above the basins with a profile
+P: C; 3 vnt. su baltais profiliais, lentyna virš vonelių su profiliu; 3 units with white profiles, shelve above the basins with a profile
+P: M; 3 vnt. cinkuotų lentynų; 3 units galvanized shelves
+P: 6; 3 vnt. su baltais profiliais,  lentyna  virš vonelių be profilio; 3 units with white profiles, shelve above the basins without a profile
+P: 5; 2 vnt. su baltais profiliais, lentyna virš vonelių be profilio; 2 units with white profiles, shelve above the basins without a profile
+P: 7; 2 vnt. su blizgiais prof., lentyna virš vonelių su profiliu; 2 units with shiny profiles, shelve above the basins with a profile
+P: C; 2 vnt. su baltais profiliais, lentyna virš vonelių su profiliu; 2 units with white profiles, shelve above the basins with a profile
+P: A; 5 vielinės lentynos; 5 wire shelves
+P: 7; 5 vnt. su blizgiais prof., lentyna virš vonelių su profiliu; 5 units with shiny profiles, shelve above the basins with a profile
+P: C; 5 vnt. su baltais profiliais, lentyna virš vonelių su profiliu; 5 units with white profiles, shelve above the basins with a profile
+P: 9; 5 vnt. su baltais prof., lentyna virš vonelių be profilio; 5 units with white profiles, shelve above the basins without a profile
+P: M; 5 vielinės lentynos; 5 wire shelves
+P: X; Nėra; None
+P: M; 5 sutankintos; 5 compacted
+T: 15; 1; Durų vonelės; Door basins
+P: 0; Su dangteliu, 1 ilga, buteliams, plastikinis butelių laikiklis; With a lid, 1 long, for bottles, plastic bottle holder
+P: 0; Su dangteliu, 2 ilgos,  buteliams, plastikinis butelių laikiklis; With a lid, 2 long, for bottles, plastic bottle holder
+P: 1; Su dangteliu, 2 ilgos, 2 trumpos, buteliams, plastikinis butelių laikiklis; With a lid, 2 long, 2 short, for bottles, plastic bottle holder
+P: 2; Su dangteliu, 1 ilga, cinkuotas butelių laikiklis; With a lid, 1 long, galvanized bottle holder
+P: 2; Su dangteliu, 2 ilgos, buteliams, cinkuotas butelių laikiklis; With a lid, 2 long, for bottles, galvanized bottle holder
+P: 2; Su dangteliu, 3 ilgos, buteliams, cinkuotas butelių laikiklis; With a lid, 3 long, for bottles, galvanized bottle holder
+P: 3; Su dangteliu, 2 ilgos, 2 trumpos, buteliams, cinkuotas butelių laikiklis; With a lid, 2 long, 2 short, for bottles, galvanized bottle holder
+P: 5; Su dangteliu, 1 ilga, 2 trumpos, buteliams, plastikinis butelių laikiklis; With a lid, 1 long, 2 short, for bottles, plastic bottle holder
+P: 6; 2 ilgos, 2 trumpos, buteliams, plastikinis butelių laikiklis; 2 long, 2 short, for bottles, plastic bottle holder
+P: 7; Su dangteliu, 1 ilga, buteliams, plastikinis butelių laikiklis; With a lid, 1 long, for bottles, plastic bottle holder
+P: A; 2 ilgos, buteliams, plastikinis butelių laikiklis; 2 long, for bottles, plastic bottle holder
+P: A; 3 ilgos, buteliams,  plastikinis butelių laikiklis; 3 long, for bottles, plastic bottle holder
+P: A; 4 ilgos, buteliams, plastikinis butelių laikiklis; 4 long, for bottles, plastic bottle holder
+P: B; Su dangteliu, 1 ilga, 2 trumpos, buteliams, cinkuotas butelių laikiklis; With a lid, 1 long, 2 short, for bottles, galvanized bottle holder
+P: C; Su dangteliu, 2 ilgos, 2 trumpos, buteliams, nėra butelių laikiklio;  With a lid, 2 long, 2 short, for bottles, no bottle holder
+P: G; 3 ilgos, 2 trumpos, buteliams, cinkuotas butelių laikiklis; 3 long, 2 short, for bottles, galvanized bottle holder
+P: E; 2 ilgos, buteliams,  cinkuotas butelių laikiklis; 2 long, for bottles, galvanized bottle holder 
+P: E; Su dangteliu, 2 ilgos, buteliams, cinkuotas butelių laikiklis; With a lid, 2 long, for bottles, galvanized bottle holder
+P: F; 3 ilgos, 2 trumpos, buteliams,  nėra butelių laikiklio; 3 long, 2 short, for bottles, no bottle holder
+P: K; 3 ilgos, buteliams,  cinkuotas butelių laikiklis; 3 long, for bottles, galvanized bottle holder
+P: K; 4 ilgos, buteliams, cinkuotas butelių laikiklis; 4 long, for bottles, galvanized bottle holder
+P: M; 2 ilgos, buteliams, nėra butelių laikiklio; 2 long, for bottles, no bottle holder
+P: M; 3 ilgos, buteliams, nėra butelių laikiklio; 3 long, for bottles, no bottle holder
+P: H; 1 ilga, 2 buteliams, nėra butelių laikiklio; 1 long, 2 for bottles, no bottle holder
+P: H; 2 ilgos, 2 butelių, cinkuotas butelių laikiklis; 2 long, 2 for bottles, galvanized bottle holder
+P: H; 3 ilgos, 2 buteliams, nėra butelių laikiklio; 3 long, 2 for bottles, no bottle holder
+P: 9; Su dangteliu, 2 ilgos, buteliams, cinkuotas butelių laikiklis; With a lid, 2 long, for bottles, galvanized bottle holder
+P: 9; Su dangteliu, 1 ilga, buteliams, cinkuotas butelių laikiklis; With a lid, 1 long, for bottles, galvanized bottle holder
+P: 9; Su dangteliu, 3 ilgos, buteliams, plastikinis butelių laikiklis; With a lid, 3 long, for bottles, plastic bottle holder
+P: X; Nėra; None 
+T: 16; 1; Šaldiklio Skyrius; Freezer Section
+P: 0; Atverčiamos viršutinės durelės; Turn-up doors
+P: 1; Visi stalčiai; All drawers
+P: 1; 1 atvečiamos viršutinės, lentyna, 6 stalčiai; 1 Turn-up door, a shelve, 6 drawers
+P: 2; 2 atverčiamos viršutinės durelės; 2 Turn-up door
+P: 3; Visi stalčiai; All drawers
+P: 4; 2 atverčiamos viršutinės durelės; 2 Turn-up doors
+P: 5; Stalčiai ir 2 lentynos; Drawers and 2 shelves
+P: 6; 1 atvečiamos viršutinės, 6 lentynos, 6 stalčiai; 1 Turn-up door, 6 shelve, 6 drawers
+P: X; Nėra; None
+P: X; Be stalčių; No drawers
+T: 17; 2; Vidaus Indų Spalva; Dish Color
+P: V4; Violetinė, baltas butelių laikiklis; Purple, white bottle holder
+P: V5; Violetinė, cinkuotas butelių laikiklis; Purple, galvanized bottle holder
+P: S4; Bespalvė, cinkuotas butelių laikiklis; Plain, galvanized bottle holder
+P: Z1; Stiklo žalia, cinkuotas butelių laikiklis; Glass green, galvanized bottle holder
+P: D3; Pilka dūminė, baltas butelių laikiklis; Gray smoky, white bottle holder
+P: XX; -; -
+P: V4; Violetinė; Purple
+P: S4; Bespalvė; Plain
+P: JJ; Juoda; Black
+T: 19; 1; Grafika; Graphics
+P: 0; Piktogramos ant durų ir vaisių vonelių, žvaigždučių simbolis, užrašas Fast Freeze ant šaldiklio stalčiaus, produktų saugojimo kalendorius ant šaldiklio durų; Icons on door and fruit basins, star symbol, text "Fast Freeze" on freezer drawer, product keeping calendar on freezer door
+P: 0; Užrašas ant 0 zonos stalčiaus, piktogramos ant durų ir vaisių vonelių, žvaigždučių simbolis, užrašas Fast Freeze ant šaldiklio stalčiaus, produktų saugojimo kalendorius ant šaldiklio durų; Text on 0 zone drawer, icons on door and fruit basins, start symbol, text "Fast Freeze" on freezer drawer, product keeping calendar on freezer door
+P: 0; Piktogramos ant durų vonelės dangtelio, durų vonelių ir vaisių vonelės, ventiliatoriaus dangtelio; Icons on door basin lid, door basin and fruit basin, ventilator cover
+P: 0; Žvaigždučių simbolis, užrašai Fast Freeze ir BigBox, saugojimo kalendorius; Star symbol, text "Fast Freeze" and "BigBox", product keeping calendar
+P: 1; Nėra piktogramų; No icons
+P: 1; Žvaigždučių simbolis ant šaldiklio stalčiaus; Star symbol on freezer drawer
+P: 4; Užrašas ant 0 zonos stalčiaus, piktogramos ant butelių ir vaisių vonelių, žvaigždučių simbolis, užrašas Fast Freeze ant šaldiklio stalčiaus; Text on 0 zone drawer, icons on bottle and fruit basins, star symbol, text "Fast Freeze" on freezer drawer
+P: 4; Piktogramos ant butelių ir vaisių vonelių, žvaigždučių simbolis, užrašas Fast Freeze ant šaldiklio stalčiaus; Icons on bottle and fruit holder, star symbol, text "Fast Freeze" on freezer drawer
+P: 4; Piktogramos ant trijų durų vonelių; Icons on three door basins
+P: 4; Žvaigždučių simbolis, užrašai Fast Freeze ir BigBox; Star symbol, text "Fast Freeze" and "BigBox"
+P: 8; Užrašas ant 0 zonos stalčiaus, žvaigždučių simbolis, užrašas Fast Freeze ant šaldiklio stalčiaus; Text on 0 zone drawer, start symbol, text "Fast Freeze" on freezer drawer; 
+P: 8; Žvaigždučių simbolis, užrašas Fast Freeze ant šaldiklio stalčiaus; Star symbol, text "Fast Freeze" on freezer drawer;
+P: Z; Z; Z
+P: X; Nėra; None
+T: 20; 1; Papildoma Komplektacija; Additional package
+P: X; Kiaušinių dėklas; Egg holder
+P: X; Be ledų vonelės; No ice basin
+P: 5; Kiaušinių dėklas, lentyna buteliams; Egg holder, shelve for bottles
+P: 6; 2 kiaušinių dėklai, ledų vonelė; 2 egg holders, ice basin
+P: 7; 2 kiaušinių dėklai, lentyna buteliams, ledų vonelė; 2 egg holder, shelve for bottles
+P: B; Kiaušinių dėklas, lentyna buteliams, ledų vonelė, stalčius; Egg holder, shelve for bottles, ice basin, shelve
+P: B; Ištraukiamas stalčius, lentyna buteliams, kiaušinių dėklas, ledų vonelė; Removable drawer, shelve for bottles, egg holder, ice basin
+P: C; Kiaušinių dėklas, ledų vonelė, stalčius; Egg holder, ice basin, drawer
+P: F; Su ledų vonele; With an ice basin
+P: 2; Analoginis termometras; Analog thermometer
+P: C; Analoginis termometras, kainų laikikliai; Analog thermometer, price holders
+P: K; Kainų laikikliai; Price holders
+T: 21; 2; Prekės Ženklas; Brand
+P: AB; Premiere; Premiere
+P: AD; Amica (DE); Amica (DE)
+P: AM; Amica (PL); Amica (PL)
+P: AS; Asko; Asko
+P: BA; BARTSCHER; BARTSCHER
+P: BO; BOMANN; BOMANN
+P: BR; Brandt; Brandt
+P: CM; CombiSteel; CombiSteel
+P: EN; Essentiel b; Essentiel b
+P: EV; EXQUISIT (DE); EXQUISIT (DE) 
+P: EX; EXQUISIT (NL); EXQUISIT (NL)
+P: FI; FRATELLI; FRATELLI
+P: GS; Gastro Cool; Gastro Cool
+P: HA; Hansa (RU); Hansa (RU)
+P: HF; Hansa; Hansa
+P: IZ; IZOLA; IZOLA
+P: KB; KBS; KBS
+P: LI; Listo; Listo
+P: LL; SEVERIN; SEVERIN
+P: ME; MENUMAT; MENUMAT
+P: MO; Montepllier; Montepllier
+P: MP; MPM; MPM
+P: NA; Nabo; Nabo
+P: NC; Nordice; Nordice
+P: NP; National Plus; National Plus
+P: NR; Nara; Nara
+P: OL; COOL; COOL
+P: OR; Orima; Orima
+P: PA; POLAIR; POLAIR
+P: PH; PHILCO; PHILCO
+P: PT; Point; Point
+P: RO; ROMO; ROMO
+P: SA; SABA; SABA
+P: SB; SIBIR; SIBIR
+P: SC; SNAIGĖ (BG); SNAIGĖ (BG)
+P: SD; SEVERIN; SEVERIN
+P: SE; SNAIGĖ (UA); SNAIGĖ (UA) 
+P: SN; SNAIGĖ (LT); SNAIGĖ (LT)
+P: TT; TC; TC
+P: UN; Unit; Unit
+P: UZ; SNAIGĖ (UZ); SNAIGĖ (UZ)
+P: WH; WHIRLPOOL; WHIRLPOOL
+P: XX; DISMARSA; DISMARSA
+T: 23; 1; Dekoratyviniai Elementai; Decorations
+P: 0; Metalizuotas logo, yra indikacinės lemputės; Metallized logo, with indicator lights
+P: 1; Metalizuotas logo, nėra indikacinių lempučių; Metallized logo, without indicator lights
+P: 2; Logo lipdukas-plokštelė, yra indikacinės lemputės; Logo sticker-plate, with indicator lights
+P: 2; Be brandingo. Logo lipdukas-plokštelė; No branding. Logo sticker-plate
+P: 7; Logo lipdukas-plokštelė, nėra indikacinių lempučių; Logo sticker-plate, without indicator lights
+P: 9; Apklijuotas Art Gallery piešiniais; Covered with Art Gallery drawings
+P: X; Nėra logo ant durų, yra indikacinės lemputės; No logo on the door, with indicator lights
+P: K; Apklijuotas kreidine plėvele, be indikacinių lempučių; Covered in blackboard skin, without indicator lights
+P: B; Metalizuotas logo, 2 indikacinės lemputės; Metallized logo, 2 indicator lights
+P: C; Brandingas ant šonų ir reklaminio skydo; Branding on the sides and ad dashboard
+P: D; Brandingas ant šonų; Branding on the sides
+P: E; Brandingas ant reklaminio skydo; Branding on the ad dashboard
+P: F; Brandingas ant durų. Nėra logo; Branding on the door. No logo
+P: R; Brandingas ant šonų, reklaminio skydo ir durų. Nėra logo; Branding on the sides, doors, and ad dashboard
+P: L; Brandingas ant šonų ir durų. Nėra logo; Branding on the sides and doors
+T: 24; 1; Kiti Reikalavimai; Other Requirements
+P: L; Papildomi lipdukai ant pakuotės; Additional stickers on the package
+P: A; Angliška šakutė; English plug
+P: G; Temperatūros indikatorius ir lipdukas D867312; Temperature indicator and sticker D867312
+P: S; Šveicariška šakutė; Swiss plug
+P: I; Izraelio šakute ir kiti reikalavimai; Israelian plug and other requirements
+P: K; 2.7m elektros laidas; 2.7m cable
+P: X; Su antibakteriniu lipduku; With anti-bacterial sticker
+P: E; Papildoma kliento reklaminė medžiaga; Additional client ad material
+P: D; Ilgas tinklo laidas; Long cable
+T: 6; 1; Šaldymo Sistemos Tipas; Cooling System Type
+P: 1; -; -
+P: 6; Su termometru; With a thermometer
+T: 7; 1; Dizaino Variantas; Design Variant
+P: 0; Integruotos rankenos; Integrated handles
+P: 0; -; -
+P: 1; Vertikalios plastikinės rankenos; Vertical plastic handles
+P: 2; Įmontuojamas į baldus; Installable into furniture
+P: 3; Šaldytuvas vynui; Fridge for wine
+P: 7; Vertikalios plastikinės rankenos; Vertical plastic handles
+P: 8; Kampinės rankenos; Corner handles
+P: R; Reklaminis skydas; Ad dashboard
+T: 8; 1; Išorės Spalva; Exterior Color
+P: 0; Balta; White
+P: 1; Be ventiliatoriaus; Without ventilator
+P: 5; Spalvotas korpusas; Colored body
+P: 6; Spalvotas; Colored
+P: 9; Inox durys, spalvotos durys; Inox doors, colored body
+T: 9; 1; Modifikacija; Modification
+P: 1; -; -
+P: 1; CD140 durys aliuminio rėme ir rankena V253036; CD140 door in aluminum frame and handle V253036
+P: 2; Durys aliuminio rėme, vertikali rankena, tangentinis ventialiatorius, durų užraktas, iliuminescensinis apšvietimas.; Doors in aluminum frame, vertical handle, tangential fan, door lock, iliuminescensinis lighting
+P: 2; CD140 durys PVC rėme ir rankena integruota.; CD140 door in PVC frame and integrated handle.
+P: 3; -; -
+P: 3; CD350 durys aliuminio rėme, vertikali rankena, tangentinis ventiliatorius, LED apšvietimas.; CD350 door in aluminum frame, vertical handle, tangential fan, LED lighting
+P: 3; CD350 durys aliuminio rėme, vertikali rankena, tangentinis ventiliatorius, LED apšvietimas, anglies filtras.; CD350 door in aluminum frame, vertical handle, tangential fan, LED lighting, carbon filter.
+P: 4; LED apšvietimas; LED lighting
+P: 4; -; -
+P: 4; Dvejos durys aliuminio rėme, vertikali rankena, tangentinins ventiliatorius, LED apšvietimas.; Two doors in aluminum frame, vertical frame, tangential fan, LED lighting
+P: 4; CD290 durys aliuminio rėme, vertikali rankena, tangentinins ventiliatorius, LED apšvietimas.; CD290 door in aluminum frame, vertical handle, tangential ventilator, LED lighting;
+P: 6; CD290  durys PVC rėme, integruota rankena, ašinis ventiliatorius, LED apšvietimas.; CD290 door in PVC frame, integrated handle, axial fan, LED lighting.
+P: 7; Durys PVC rėme, vertikali rankena, tangentinis ventialiatorius, durų užraktas, iliuminescensinis apšvietimas.; Doors in PVC frame, vertical handle, tangential fan, iliuminescensinis lighting.
+P: 7; CD290  durys PVC rėme, vertikali rankena, tangentinis  ventiliatorius, LED apšvietimas.; CD290 door in PVC frame, vertical handle, tangential fan, LED lighting.
+P: 8; CD290 durys PVC rėme, integruota rankena, ašinis ventiliatorius, nėra šviesos išjungimo ir el. tinklo indikacijos, LED apšvietimas.; CD290 door in PVC frame, integrated frame, axial fan, no light shutdown and el. grid indication, LED lighting.
+P: A; CD350 durys PVC rėme, vertikali rankena, tangentinis ventiliatorius, LED apšvietimas.; CD350 door in PVC frame, vertical handle, tangential fan, LED  lighting
+P: B; CD350 dvejos durys PVC rėme, vertikali rankena, tangentinis ventiliatorius, LED apšvietimas.; CD350 two doors in PVC frame, vertical handle, tangential fan, LED lighting.
+P: D; CD350 durys PVC rėme, integruota rankena, ašinis ventiliatorius, nėra šviesos išjungimo ir el. tinklo indikacijos, LED apšvietimas.; CD350 door in PVC frame, integrated handle, axial fan, no lighting shutdown and el. grid indication, LED lighting
+P: E; Dvejos durys PVC rėme, integruota rankena, ašinis ventiliatorius, LED apšvietimas.; Two doors in PVC frame, integrated handle, axial fan, LED lighting.
+T: 10; 3; Energijos klasė; Energy class
+P: ###; -; -
+P: A##; A; A
+P: AA#; A+; A+
+P: AAA; A++; A++
+T: 14; 2; Išorės Metlų/Plastiko Spalva; Exterior Metal/Plastic Color
+P: 00; Balta; White
+P: 02; Balta/Juodas PVC rėmas; White/Black PVC frame
+P: 0J; Balta/Juodas PVC rėmas; White/Black PVC frame
+P: 1J; Balta/Juodas PVC rėmas ir staliukas; White/Black PVC frame and table
+P: AG; Geltona-Pantone 122c/Sidabriniai; Yellow-Pantone 122c/Silver
+P: CE; Pantone 369 Apple Green/Pilki; Pantone 369 Apple Green/Gray
+P: CP; Raudona Ferrari/Pilka; Red Ferrari/Gray
+P: JA; Juoda/Sidabrinė; Black/Silver
+P: JJ; Juoda/Juoda; Black/Black
+P: JJ; Juoda/Juoda ir kamera juodos spalvos; Black/Black and Black freezer
+P: M0; Pilka/Balta; Gray/Black
+P: MA; Pilka/Sidabrinė; Gray/Silver
+P: MP; Pilka/Pilka; Gray/Gray
+P: RA; Raudona/Sidabrinė; Red/Silver
+P: WW; Ruda/Ruda ir kamera Beige spalvos; Brown/Brown and Beige freezer
+T: 16; 2; Prekės Ženklas; Brand
+P: AS; Asko; Asko
+P: BA; BARTSCHER; BARTSCHER
+P: EV; EXQUISIT; EXQUISIT
+P: KB; KBS; KBS
+P: MP; MPM; MPM
+P: OL; COOL; COOL
+P: OR; Orima; Orima
+P: PT; Point; Point
+P: RO; ROMO; ROMO
+P: SD; SEVERIN; SEVERIN
+P: SN; SNAIGĖ (LT); SNAIGĖ (LT)
+P: UZ; SNAIGĖ (UZ); SNAIGĖ (UZ)
+P: WH; WHIRLPOOL; WHIRLPOOL
+T: 18; 1; Vidaus Komplektacija; Package
+P: 0; 5 lentynos; 5 shelves
+P: 0; 6 lentynos; 6 shelves
+P: 0; 6 medinės lentynos; 6 wooden shelves
+P: 4; 1 atverčiamos skaidrios pilkos durelės, 3 balti stalčiai; 1 turn-over clear grey door, 3 white drawers
+P: 4; 10 medinių lentynų; 10 wooden shelves
+P: 4; 6 lentynos; 6 shelves
+P: 6; Skaidri pilka, 2 lentynos, šaldiklyje - 2 stalčiai,  1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, 2 shelves, freezer - 2 drawers, 1 egg holder, no ice basin
+P: B; Skaidri pilka, FR240 - 3 lentynos, FR275 - 4 lentynos, 2 kiaušinių dėklai, ledų vonelė, butelių laikiklis.; Clear grey, FR240 -  3 shelves, FR275 - 4 shelves, 2 egg holders, ice basin, bottle holder
+P: J; Skaidri pilka, 3 lentynos,1 kiaušinių dėklas, nėra ledų vonelės ir butelių laikiklio; Clear grey, 3 shelves, 1 egg holder, no ice basin and bottle holder
+P: J; 1 lentyna, 1 kiaušinių dėklas, nėra ledų vonelės ir laikiklio; 1 shelf, 1 egg holder, no ice basin and holder
+P: J; 4 lentynos; 4 shelves
+P: Q; Skaidri pilka, - 4 lentynos,  1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, - 4 shelves, 1 egg holder, no ice basin
+P: Q; Skaidri pilka, RF360 - 4 lentynos, 1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, RF360 - 4 shelves, 1 egg holder, no ice basin
+P: Q; Skaidri pilka, 3 lentynos, 1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, 3 shelves, 1 egg holder, no ice basin
+P: Q; 2 atverčiamos skaidrios pilkos durelės, 4 balti stalčiai, tik Rytų rinkoms; 2 turn-over clear grey doors, 4 white drawers, only for Eastern market
+P: R; Skaidri pilka, RF390 - 3 lentynos;  1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, RF390 - 3 shelves, 1 egg holder, no ice basin
+P: R; RF360 - 3 lentynos,1 kiaušinių dėklas, nėra ledų vonelės; RF360 - 3 shevles,1 egg holder, no ice basin
+P: R; Skaidri pilka,  - 3 lentynos, 1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, - 3 shelves, 1 egg holder, no ice basin
+P: R; Skaidri pilka, 2 lentynos, 1 kiaušinių dėklas, nėra ledų vonelės; Clear grey, 2 shelves, 1 egg holder, no ice basin
+P: W; Skaidri bespalvė,  2 lentynos, 1 kiaušinių dėklas, nėra ledų vonelės; Clear flat, 2 shelves, 1 egg holder, no ice basin
+P: W; Skaidri bespalvė, 3 lentynos,1 kiaušinių dėklas, nėra ledų vonelės ir butelių laikiklio; Clear flat, 3 shelves, 1 egg holder, no ice basin and bottle holder
+P: W; 5 lentynos; 5 shelves
+P: W; 3 lentynos; 3 shelves
+T: 19; 1; Papildomas Kodas; Additional Code
+P: 0; Nėra papildomų reikalavimų; No additional requirements
+P: 1; Logo lipdukas ant durų; Logo sticker on the doors
+P: 1; Papildomi lipdukai; Additional stickers
+P: 2; Lentyna buteliams; Shelve for bottles
+P: 6; Durų užraktas; Door lock
+P: A; Papildoma pakuotė; Additional package
+T: 20; 1; Papildomas Kodas; Additional Code
+P: -;-;-
+P: 7; Nėra greito užšaldymo funkcijos; No fast freeze functions
+P: A; Antibakterinis lipdukas; Antibacterial sticker
+P: E; Logo lipdukas ant durų; Logo sticker on the doors
+P: K; Durys apklijuotos kreidine plėvele; Doors covered in blackboard material
