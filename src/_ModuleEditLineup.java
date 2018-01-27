@@ -171,10 +171,10 @@ public class _ModuleEditLineup extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if(remove) {
-					//removeAllItems((PropType)comboBox.getSelectedItem());
+					removeAllItems((PropType)comboBox.getSelectedItem());
 				}
 				else {
-					//addAllItems((PropType)comboBox.getSelectedItem());
+					addAllItems((PropType)comboBox.getSelectedItem());
 				}
 			}
 		});
@@ -225,20 +225,19 @@ public class _ModuleEditLineup extends JFrame {
 		lineupList.updateView();
 	}
 	
-//	private void addAllItems(PropType item) {
-//		for(Specification spec : propManager.getSpecificationManager().getSpecsByType(item.getType(), item.getPosition(), item.getCodeLength()))
-//			if(!lineup.getSpecs(propManager.getSpecificationManager()).contains(spec)) lineup.addSpec(spec);
-//		selectedGlobal = new ArrayList<Property>();
-//		createCards(combinationPanel, lineup, "Double click to add", true);
-//		lineupList.updateView();
-//	}
-//	
-//	private void removeAllItems(PropType item) {
-//		for(Property spec : lineup.(item.getID(), propManager.getSpecificationManager())) {
-//			lineup.remove(spec.getID());
-//		}
-//		selectedLineup = new ArrayList<Property>();
-//		createCards(combinationPanel, lineup, "Double click to remove", true);
-//		lineupList.updateView();
-//	}
+	private void addAllItems(PropType item) {
+		for(Property prop : propManager.getProps(item.getID()))
+			if(!lineup.getProps().contains(prop.getID())) lineup.addProp(prop.getID());
+		selectedGlobal = new ArrayList<Property>();
+		createCards(combinationPanel, lineup, "Double click to add", true);
+		lineupList.updateView();
+	}
+	
+	private void removeAllItems(PropType item) {
+		for(Property prop : propManager.getPropsWithType(lineup.getProps(), item.getID()))
+			lineup.remProp(prop.getID());
+		selectedLineup = new ArrayList<Property>();
+		createCards(combinationPanel, lineup, "Double click to remove", true);
+		lineupList.updateView();
+	}
 }

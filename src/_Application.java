@@ -50,7 +50,7 @@ public class _Application {
 		
 		_ModulePropList modulePropList = new _ModulePropList(propManager);
 
-		window.addTab(new _WindowDecode(decoder));
+		window.addTab(new _WindowDecode(decoder, propManager));
 		window.addTab(new _WindowCombinate(lineups, propManager, decoder));
 		window.addTab(new _WindowProps(modulePropList, propManager));
 		window.addTab(new _WindowLineups(new _ModuleLineupList(propManager, lineups)));

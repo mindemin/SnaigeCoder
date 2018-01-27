@@ -47,6 +47,7 @@ public class _WindowCombinate extends Tab {
 	}
 
 	private static Toolbar createToolbar(List<Lineup> lineups, PropManager propManager) {
+		setPropManager(propManager);
 		language = new JComboBox<String>(new String[]{"LT", "EN"});
 		Toolbar toolbar = new Toolbar();
 		toolbar.setLayout(new FlowLayout(FlowLayout.CENTER));
@@ -118,7 +119,15 @@ public class _WindowCombinate extends Tab {
 			JComboBox<Property> propBox = new JComboBox<Property>();
 			propBox.setBorder(BorderFactory.createEmptyBorder());
 			propBox.setRenderer(new _ModuleCellRenderer((String)language.getSelectedItem(), Arrays.asList()));
-			for(Property prop : propManager.getPropsWithType(lineup.getProps(), type.getID())) {
+			List<Property> props = propManager.getPropsWithType(lineup.getProps(), type.getID());
+			props.sort(new Comparator<Property>() {
+
+				@Override
+				public int compare(Property o1, Property o2) {
+					return o1.compareTo(o2);
+				}
+			});
+			for(Property prop : props) {
 				propBox.addItem(prop);
 			}
 			propBox.addItemListener(new ItemListener() {
@@ -175,13 +184,15 @@ public class _WindowCombinate extends Tab {
 			boolean rowValid = false;
 			for(int or = 0; or < cases.get(and).size(); or++) {
 				for(JComboBox<Property> propBox : propBoxes) {
-					if((((Property)propBox.getSelectedItem()).getID() == cases.get(and).get(or).getPropID() && !cases.get(and).get(or).isNot()) || 
-					  (!(((Property)propBox.getSelectedItem()).getID() == cases.get(and).get(or).getPropID()) && ((Property)propBox.getSelectedItem()).getTypeID() == propManager.getProp(cases.get(and).get(or).getPropID()).getID() && cases.get(and).get(or).isNot())){
-						rowValid = true;
-						influential.remove(propBox);
-						break;
-					} else if(((Property)propBox.getSelectedItem()).getTypeID() == (propManager.getProp(cases.get(and).get(or).getPropID()).getID())) {
-						influential.add(propBox);
+					if((Property)propBox.getSelectedItem() != null) {
+						if((((Property)propBox.getSelectedItem()).getID() == cases.get(and).get(or).getPropID() && !cases.get(and).get(or).isNot()) || 
+						(!(((Property)propBox.getSelectedItem()).getID() == cases.get(and).get(or).getPropID()) && ((Property)propBox.getSelectedItem()).getTypeID() == propManager.getProp(cases.get(and).get(or).getPropID()).getTypeID() && cases.get(and).get(or).isNot())){
+							rowValid = true;
+							influential.remove(propBox);
+							break;
+						} else if(((Property)propBox.getSelectedItem()).getTypeID() == (propManager.getProp(cases.get(and).get(or).getPropID()).getID())) {
+							influential.add(propBox);
+						}
 					}
 				}
 				if(rowValid) break;

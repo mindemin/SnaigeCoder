@@ -34,7 +34,7 @@ public class _ModuleDependencyCell implements ListCellRenderer<Object> {
         }
 		if (value instanceof Property) {
 			Property prop = (Property)value;
-			renderer.setText(prop.getCode());
+			renderer.setText(prop.getCode() + ": " + prop.getDesc("EN"));
 		}
 		if (value instanceof PropType) {
 			PropType type = (PropType)value;

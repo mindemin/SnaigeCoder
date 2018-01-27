@@ -57,11 +57,19 @@ public class Decoder {
 		}
 		if(lineup == null) return null;
 		
+		this.types = propManager.getTypesByProps(lineup.getProps());
+		types.sort(new Comparator<PropType>() {
+			@Override
+			public int compare(PropType o1, PropType o2) {
+				return o1.compareTo(o2);
+			}
+		});
+		
 		int overDistance = 0;
 		for (PropType type : types) {
 			int start = type.getStartPos() - overDistance;
 			int end = start + type.getLength();
-			for (Property prop : propManager.getProps(type.getID())) {
+			for (Property prop : propManager.getPropsWithType(lineup.getProps(), type.getID())) {
 				String keyCode = prop.getCode();
 				if(end <= code.length()) {
 					int distance = (code.substring(start, end).contains("-") && keyCode.contains("#")) ? keyCode.length() - code.substring(start, end).split("-")[0].length() : 0;

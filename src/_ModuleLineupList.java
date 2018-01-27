@@ -59,7 +59,8 @@ public class _ModuleLineupList extends JScrollPane {
 		JButton remove = new JButton("Remove");
 		JButton dependencies = new JButton("Dependencies");
 		JButton edit = new JButton("Edit");
-		JButton hide = new JButton((lineup.getProps().isEmpty()) ? "Show" : "Hide");
+		//JButton hide = new JButton((lineup.getProps().isEmpty()) ? "Show" : "Hide");
+		JButton hide = new JButton("Show");
 		remove.addActionListener(new ActionListener() {
 
 			@Override
@@ -147,7 +148,8 @@ public class _ModuleLineupList extends JScrollPane {
 				}
 			}
 		}
-		content.setVisible((lineup.getProps().isEmpty()) ? false : true);
+		//content.setVisible((lineup.getProps().isEmpty()) ? false : true);
+		content.setVisible(false);
 		return content;
 	}
 
